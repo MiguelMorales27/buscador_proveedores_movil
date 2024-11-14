@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 import { TextInput, View, Text, FlatList, Alert, Button } from "react-native";
 import { SupplierCard } from "./SuppliersCard";
-import { getSuppliers } from "../lib/APIService";
+import { getSuppliers } from "../services/APIService";
 
 
 const Form = () => {
